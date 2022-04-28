@@ -1,0 +1,24 @@
+
+
+public class Advice
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Advice"
+        property "de.generated" "true"
+{
+    public string adviceMessage
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "AdviceMessage"
+                property update "true";
+    public string name
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "Name"
+                property update "true";
+    public Advice(string adviceMessage, string name)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Advice()
+                property "dataio.default" "true";
+}
+

@@ -1,0 +1,9 @@
+
+# Advice
+Advice#concept.documentation = Advice
+Advice#concept.label = Advice
+Advice.Advice(java.lang.String,java.lang.String)#phrase.navigation = a new {Advice} where {0, AdviceMessage} {1, Name}
+Advice.adviceMessage#phrase.action = set the AdviceMessage of {this} to {AdviceMessage}
+Advice.adviceMessage#phrase.navigation = {AdviceMessage} of {this}
+Advice.name#phrase.action = set the Name of {this} to {Name}
+Advice.name#phrase.navigation = {Name} of {this}
